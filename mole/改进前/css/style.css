@@ -1,0 +1,90 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16pt;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	overflow: hidden;
+	background-image: url(../img/r.jpg);
+	background-size: cover;
+}
+
+#gamestate {
+	width: 350px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#start {
+	width: 180px;
+	height: 60px;
+	float: left;
+}
+
+#start button{
+	width: 175px;
+	height: 24px;
+	float: left;
+	border: 2px solid solid rgba(126,126,126,.6);
+}
+
+#state {
+	width: 70px;
+	height: 18px;
+	margin: 4px 0px 4px 0px;
+	float: left;
+	border: 2px solid rgba(126,126,126,.6);
+}
+
+#start span {
+	float: left;
+	font-size: 12pt;
+	margin: 4px 2px 4px 0px;
+}
+
+#score{
+	width: 120px;
+	height: 60px;
+	float: right;
+	text-align: right;
+	font-size: 12pt;
+}
+
+#score input {
+	width: 50px;
+	height: 18px;
+	margin: 0px 0px 4px 0px;
+	border: 2px solid solid rgba(126,126,126,.6);
+}
+
+#map {
+	width: 260px;
+	height: 180px;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	background-color: orange;
+	border-radius: 5%;
+}
+
+#intr {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 700px;
+	font-size: 14pt;
+	text-align: left;
+	color: white;
+}
+
+body > p, h1{
+	color: orange;
+}
+
+li p{
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-weight: bold;
+}

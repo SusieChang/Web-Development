@@ -1,0 +1,119 @@
+html, body {
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(../img/bw.jpg);
+	background-repeat: repeat;
+	color: #333;
+	font-family: monospace,Verdana, Tahoma,sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(126,126,126,1);
+	font-size: 32px;
+}
+
+#container {
+	width: 710px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#left-container {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	left: 100px;
+}
+
+#right-container {
+	width: 300px;
+	height: 500px;
+	float: right;
+	position: absolute;
+	left: 550px;
+}
+
+#inner {
+	margin:0 20px 0 20px;
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	font-size: 0;
+}
+
+.block {
+	width: 88px;
+	height: 88px;
+	position: relative;
+	font-size: 0;
+	margin:1px;
+	display: inline-block;
+	background-image: url(../img/puzzle.jpg);
+	cursor: pointer;
+}
+
+#left-container button {
+	width:100px;
+	height: 40px;
+	background-color: orange;
+	position: absolute;
+	top:450px;
+	left: 155px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 50%;
+}
+
+#right-container button {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 40px;
+	top:450px;
+	left:10px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color:#95e4f4;
+	border-radius: 50%;
+}
+
+.block:hover,.block:link {
+	transform: scale(1.05);
+    transition-duration: 0.1s;
+}
+
+
+img {
+	transform: scale(.25);
+	-webkit-transform: scale(.25);
+	-moz-transform: scale(.25);
+	-webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    transition: all .3s;
+    position: absolute;
+    left:-133px;
+    bottom:-78px;
+}
+
+img:hover {
+	-webkit-transform: scale(.8);
+	-moz-transform: scale(.8);
+	transform: scale(.8);
+	-webkit-transition: all .5s .2s;
+    -moz-transition: all .5s .2s;
+    transition: all .5s .2s;
+    left: -30px;
+    bottom:22px;
+}
+
+audio {
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	top:100px;
+	left:0px;
+}

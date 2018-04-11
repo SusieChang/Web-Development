@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Whac-a-mole</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/lodash.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+	<link href="img/clock.png" type="img/png" rel="shortcut icon" />
+</head>
+<body>
+	<h1>Whac-a-mole</h1>
+	<p>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</p>
+	<div id = "gamestate">
+		<div id = "start">
+			<button id = "change">Start Game | Stop Game</button>
+			<span>Game State:</span><input id = "state", type="text" name="reset" value="Game Over">
+		</div>
+		<div id = "score">
+			<span>Time: </span><input type="text" id="Time" readonly="readonly" value=30>
+			<span>Score: </span><input type="text" id="Score" readonly="readonly" value="0">
+		</div>
+	</div>
+	<div id="map"></div>
+	<button id = "pause">Pause</button>
+	<div id = "intr">
+		<p>Instruction：</p>
+		<ol>
+			<li><p>Click on the radio buttons(moles) as they are selected randomly by the computer.</p></li>
+			<li><p>1 point per hit, minus 1 point per miss</p></li>
+		</ol>
+	</div>
+</body>
+</html>

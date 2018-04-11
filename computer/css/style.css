@@ -1,0 +1,101 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-position: center;
+	background-image: url(../img/t.jpg);
+	background-size: cover;
+	font-family: Arial,"Microsoft YaHei",Verdana, Tahoma,sans-serif;
+}
+
+/*总体布局*/
+.outcontainer {
+	width: 430px;
+	height: 530px;
+	position: absolute;
+	top:calc(50% - 275px);
+	left: calc(50% - 225px);
+	box-shadow: 0px 0px 100px 0px rgba(125,125,125,.6);
+	background-image: url(../img/c.jpg);
+	border: 10px solid white;
+	border-radius: 5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+
+.innercontainer {
+	width: 370px;
+	height: 410px;
+	overflow: hidden;
+	position: absolute;
+	top: 75px;
+	left: 20px;
+	border: 10px solid white;
+	background-color: white;
+	box-shadow: inset 0px 0px 50px rgba(195,130,65,.3);
+	border-radius: 5%;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+}
+
+/*细节*/
+h1 {
+	color: white;
+	margin: 0;
+	text-shadow: 0px 0px 30px brown;
+	font-size: 28pt;
+	text-align: center;
+	position: absolute;
+	top: 15px;
+	left: 125px;
+}
+
+.inputbar {
+	margin: 16px 10px;
+	width:348px;
+	height: 64px;
+	border:2px solid rgba(126,126,126,.7);
+	overflow: hidden;
+	position: absolute;
+}
+
+.buttonbar {
+	width: 338px;
+	height:310px;
+	position: absolute;
+	top:100px;
+	left:18px;
+}
+
+#equ,#result {
+	border: 0px;
+	width: 348px;
+	height: 32px;
+	text-align: right;
+	overflow: hidden;
+	color: gray;
+	font-size: 24pt;
+}
+
+
+button {
+	width: 78px;
+	height: 48px;
+	margin-bottom: 15px;
+	font-size: 24pt; 
+	color: brown;
+	background-image: url(../img/w.png);	
+	border-radius: 10%;
+	-moz-border-radius:10%;
+	-webkit-border-radius:10%;
+}
+
+button:hover {
+	-moz-box-box-shadow: inset 0px 0px 15px 0px brown;
+	-webkit-box-shadow: inset 0px 0px 15px 0px brown;
+	box-shadow: inset 0px 0px 15px 0px brown;
+	transition: all .1s;
+}
+
